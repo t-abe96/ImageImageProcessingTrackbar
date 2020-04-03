@@ -22,7 +22,8 @@ namespace ImageProcessingTrackbar
             // ダイアログボックスの表示
             if (openFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
-                
+                // 選択されたファイルをテキストボックスに表示する
+                textselectfilename.Text = openFileDialog1.FileName;
             }
         }
     }

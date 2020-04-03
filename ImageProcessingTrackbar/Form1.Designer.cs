@@ -35,6 +35,7 @@
             this.名前を付けて保存ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.上書き保存ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.リセットToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.textselectfilename = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,33 +68,41 @@
             // 開くToolStripMenuItem
             // 
             this.開くToolStripMenuItem.Name = "開くToolStripMenuItem";
-            this.開くToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.開くToolStripMenuItem.Size = new System.Drawing.Size(201, 26);
             this.開くToolStripMenuItem.Text = "開く";
             this.開くToolStripMenuItem.Click += new System.EventHandler(this.開くToolStripMenuItem_Click);
             // 
             // 名前を付けて保存ToolStripMenuItem
             // 
             this.名前を付けて保存ToolStripMenuItem.Name = "名前を付けて保存ToolStripMenuItem";
-            this.名前を付けて保存ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.名前を付けて保存ToolStripMenuItem.Size = new System.Drawing.Size(201, 26);
             this.名前を付けて保存ToolStripMenuItem.Text = "名前を付けて保存";
             // 
             // 上書き保存ToolStripMenuItem
             // 
             this.上書き保存ToolStripMenuItem.Name = "上書き保存ToolStripMenuItem";
-            this.上書き保存ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.上書き保存ToolStripMenuItem.Size = new System.Drawing.Size(201, 26);
             this.上書き保存ToolStripMenuItem.Text = "上書き保存";
             // 
             // リセットToolStripMenuItem
             // 
             this.リセットToolStripMenuItem.Name = "リセットToolStripMenuItem";
-            this.リセットToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.リセットToolStripMenuItem.Size = new System.Drawing.Size(201, 26);
             this.リセットToolStripMenuItem.Text = "リセット";
+            // 
+            // textselectfilename
+            // 
+            this.textselectfilename.Location = new System.Drawing.Point(522, 31);
+            this.textselectfilename.Name = "textselectfilename";
+            this.textselectfilename.Size = new System.Drawing.Size(278, 22);
+            this.textselectfilename.TabIndex = 1;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textselectfilename);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
@@ -114,6 +123,7 @@
         private System.Windows.Forms.ToolStripMenuItem 名前を付けて保存ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 上書き保存ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem リセットToolStripMenuItem;
+        private System.Windows.Forms.TextBox textselectfilename;
     }
 }
 

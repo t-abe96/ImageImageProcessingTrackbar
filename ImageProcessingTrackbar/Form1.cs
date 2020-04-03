@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -36,6 +37,18 @@ namespace ImageProcessingTrackbar
 
             // OpenFileDialog img = new OpenFileDialog();
             // pictureBox1.ImageLocation = Image.FromFile(img.FileName);
+        }
+
+        private void 上書き保存ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FileStream fs = new FileStream(openFileDialog1.FileName, FileMode.Open, FileAccess.Read);
+
+            Bitmap bmp = (Bitmap)System.Drawing.Bitmap.FromStream(fs);
+
+            fs.Close();
+
+            pictureBox1.Image = new Bitmap(bmp);
+            pictureBox1.Image.Save(textselectfilename.Text);
         }
     }
 }

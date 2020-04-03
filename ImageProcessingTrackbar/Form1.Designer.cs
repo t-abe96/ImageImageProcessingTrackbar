@@ -69,6 +69,7 @@
             this.開くToolStripMenuItem.Name = "開くToolStripMenuItem";
             this.開くToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.開くToolStripMenuItem.Text = "開く";
+            this.開くToolStripMenuItem.Click += new System.EventHandler(this.開くToolStripMenuItem_Click);
             // 
             // 名前を付けて保存ToolStripMenuItem
             // 

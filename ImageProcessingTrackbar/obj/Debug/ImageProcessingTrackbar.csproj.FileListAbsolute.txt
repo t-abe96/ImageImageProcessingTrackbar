@@ -8,3 +8,10 @@ C:\Users\tabes\source\repos\ImageProcessingTrackbar\ImageProcessingTrackbar\obj\
 C:\Users\tabes\source\repos\ImageProcessingTrackbar\ImageProcessingTrackbar\obj\Debug\ImageProcessingTrackbar.csproj.CoreCompileInputs.cache
 C:\Users\tabes\source\repos\ImageProcessingTrackbar\ImageProcessingTrackbar\obj\Debug\ImageProcessingTrackbar.exe
 C:\Users\tabes\source\repos\ImageProcessingTrackbar\ImageProcessingTrackbar\obj\Debug\ImageProcessingTrackbar.pdb
+C:\Users\tabes\source\repos\ImageProcessingTrackbar\ImageProcessingTrackbar\bin\Debug\OpenCvSharp.Blob.dll
+C:\Users\tabes\source\repos\ImageProcessingTrackbar\ImageProcessingTrackbar\bin\Debug\OpenCvSharp.dll
+C:\Users\tabes\source\repos\ImageProcessingTrackbar\ImageProcessingTrackbar\bin\Debug\OpenCvSharp.Extensions.dll
+C:\Users\tabes\source\repos\ImageProcessingTrackbar\ImageProcessingTrackbar\bin\Debug\OpenCvSharp.xml
+C:\Users\tabes\source\repos\ImageProcessingTrackbar\ImageProcessingTrackbar\bin\Debug\OpenCvSharp.Blob.xml
+C:\Users\tabes\source\repos\ImageProcessingTrackbar\ImageProcessingTrackbar\bin\Debug\OpenCvSharp.Extensions.xml
+C:\Users\tabes\source\repos\ImageProcessingTrackbar\ImageProcessingTrackbar\obj\Debug\ImageProcessingTrackbar.csproj.CopyComplete

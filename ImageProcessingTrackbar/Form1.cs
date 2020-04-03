@@ -16,5 +16,14 @@ namespace ImageProcessingTrackbar
         {
             InitializeComponent();
         }
+
+        private void 開くToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // ダイアログボックスの表示
+            if (openFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                
+            }
+        }
     }
 }

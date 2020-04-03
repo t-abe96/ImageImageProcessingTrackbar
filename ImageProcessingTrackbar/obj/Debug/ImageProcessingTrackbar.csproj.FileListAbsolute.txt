@@ -1,0 +1,10 @@
+C:\Users\tabes\source\repos\ImageProcessingTrackbar\ImageProcessingTrackbar\bin\Debug\ImageProcessingTrackbar.exe.config
+C:\Users\tabes\source\repos\ImageProcessingTrackbar\ImageProcessingTrackbar\bin\Debug\ImageProcessingTrackbar.exe
+C:\Users\tabes\source\repos\ImageProcessingTrackbar\ImageProcessingTrackbar\bin\Debug\ImageProcessingTrackbar.pdb
+C:\Users\tabes\source\repos\ImageProcessingTrackbar\ImageProcessingTrackbar\obj\Debug\ImageProcessingTrackbar.csprojAssemblyReference.cache
+C:\Users\tabes\source\repos\ImageProcessingTrackbar\ImageProcessingTrackbar\obj\Debug\ImageProcessingTrackbar.Form1.resources
+C:\Users\tabes\source\repos\ImageProcessingTrackbar\ImageProcessingTrackbar\obj\Debug\ImageProcessingTrackbar.Properties.Resources.resources
+C:\Users\tabes\source\repos\ImageProcessingTrackbar\ImageProcessingTrackbar\obj\Debug\ImageProcessingTrackbar.csproj.GenerateResource.cache
+C:\Users\tabes\source\repos\ImageProcessingTrackbar\ImageProcessingTrackbar\obj\Debug\ImageProcessingTrackbar.csproj.CoreCompileInputs.cache
+C:\Users\tabes\source\repos\ImageProcessingTrackbar\ImageProcessingTrackbar\obj\Debug\ImageProcessingTrackbar.exe
+C:\Users\tabes\source\repos\ImageProcessingTrackbar\ImageProcessingTrackbar\obj\Debug\ImageProcessingTrackbar.pdb

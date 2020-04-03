@@ -50,5 +50,13 @@ namespace ImageProcessingTrackbar
             pictureBox1.Image = new Bitmap(bmp);
             pictureBox1.Image.Save(textselectfilename.Text);
         }
+
+        private void リセットToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // 画像をクリア
+            this.pictureBox1.Image = null;
+            // 画像ファイルパスをクリア
+            textselectfilename.Text = null;
+        }
     }
 }

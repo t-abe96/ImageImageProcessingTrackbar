@@ -92,6 +92,7 @@
             this.リセットToolStripMenuItem.Name = "リセットToolStripMenuItem";
             this.リセットToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.リセットToolStripMenuItem.Text = "リセット";
+            this.リセットToolStripMenuItem.Click += new System.EventHandler(this.リセットToolStripMenuItem_Click);
             // 
             // textselectfilename
             // 

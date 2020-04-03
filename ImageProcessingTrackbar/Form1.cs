@@ -24,7 +24,18 @@ namespace ImageProcessingTrackbar
             {
                 // 選択されたファイルをテキストボックスに表示する
                 textselectfilename.Text = openFileDialog1.FileName;
+
+                // 選択された画像ファイルをpictureboxに表示する
+                pictureBox1.ImageLocation = textselectfilename.Text;
+                pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+            // OpenFileDialog img = new OpenFileDialog();
+            // pictureBox1.ImageLocation = Image.FromFile(img.FileName);
         }
     }
 }

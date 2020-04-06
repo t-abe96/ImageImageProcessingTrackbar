@@ -37,6 +37,7 @@
             this.リセットToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.textselectfilename = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -79,6 +80,7 @@
             this.名前を付けて保存ToolStripMenuItem.Name = "名前を付けて保存ToolStripMenuItem";
             this.名前を付けて保存ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.名前を付けて保存ToolStripMenuItem.Text = "名前を付けて保存";
+            this.名前を付けて保存ToolStripMenuItem.Click += new System.EventHandler(this.名前を付けて保存ToolStripMenuItem_Click);
             // 
             // 上書き保存ToolStripMenuItem
             // 
@@ -142,6 +144,7 @@
         private System.Windows.Forms.ToolStripMenuItem 上書き保存ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem リセットToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
     }
 }
 

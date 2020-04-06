@@ -32,6 +32,34 @@ namespace ImageProcessingTrackbar
             }
         }
 
+        private void 名前を付けて保存ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // フィルターの設定
+            saveFileDialog1.Filter = "Image FORMAT(*.JPEG;*.PNG*.GIF)|*.JPEG;*.PNG;*.GIF";
+            // ファイル保存のダイアログを表示
+            saveFileDialog1.ShowDialog();
+
+            string extension = System.IO.Path.GetExtension(saveFileDialog1.FileName);
+
+            switch (extension.ToUpper())
+            { 
+                case ".JPEG":
+                    // ★★★PictureBoxのイメージをJPEG形式で保存する★★★
+                    pictureBox1.Image.Save(saveFileDialog1.FileName, System.Drawing.Imaging.ImageFormat.Jpeg);
+                    break;
+
+                case ".PNG":
+                    // ★★★PictureBoxのイメージをGIF形式で保存する★★★
+                    pictureBox1.Image.Save(saveFileDialog1.FileName, System.Drawing.Imaging.ImageFormat.Png);
+                    break;
+
+                case ".GIF":
+                    // ★★★PictureBoxのイメージをGIF形式で保存する★★★
+                    pictureBox1.Image.Save(saveFileDialog1.FileName, System.Drawing.Imaging.ImageFormat.Gif);
+                    break;
+            }
+        }
+
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 

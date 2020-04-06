@@ -1034,8 +1034,7 @@
             </summary>
         </member>
         <member name="T:OpenCvSharp.Blob.CvTracks">
-            <summary>
-            
+            <summary> 
             </summary>
         </member>
         <member name="M:OpenCvSharp.Blob.CvTracks.#ctor">

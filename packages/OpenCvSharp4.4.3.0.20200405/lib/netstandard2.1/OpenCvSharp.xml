@@ -3237,6 +3237,12 @@
             <param name="winName">Name of the window that is the parent of trackbar.</param>
             <param name="minVal">New minimum position.</param>
         </member>
+        <member name="M:OpenCvSharp.Cv2.InitContainer(System.Object)">
+            <summary>
+            Initialize XAML container panel for use by ImShow
+            </summary>
+            <param name="panel">Panel container.</param>
+        </member>
         <member name="M:OpenCvSharp.Cv2.ImRead(System.String,OpenCvSharp.ImreadModes)">
             <summary>
             Loads an image from a file.
@@ -18640,6 +18646,13 @@
             The value of the second component of this object.
             </summary>
         </member>
+        <member name="M:OpenCvSharp.Vec2b.Deconstruct(System.Byte@,System.Byte@)">
+            <summary>
+            Deconstructing a Vector
+            </summary>
+            <param name="item0"></param>
+            <param name="item1"></param>
+        </member>
         <member name="M:OpenCvSharp.Vec2b.#ctor(System.Byte,System.Byte)">
             <summary>
             Initializer
@@ -18707,6 +18720,13 @@
             <summary>
             The value of the second component of this object.
             </summary>
+        </member>
+        <member name="M:OpenCvSharp.Vec2d.Deconstruct(System.Double@,System.Double@)">
+            <summary>
+            Deconstructing a Vector
+            </summary>
+            <param name="item0"></param>
+            <param name="item1"></param>
         </member>
         <member name="M:OpenCvSharp.Vec2d.#ctor(System.Double,System.Double)">
             <summary>
@@ -18776,6 +18796,13 @@
             The value of the second component of this object.
             </summary>
         </member>
+        <member name="M:OpenCvSharp.Vec2f.Deconstruct(System.Single@,System.Single@)">
+            <summary>
+            Deconstructing a Vector
+            </summary>
+            <param name="item0"></param>
+            <param name="item1"></param>
+        </member>
         <member name="M:OpenCvSharp.Vec2f.#ctor(System.Single,System.Single)">
             <summary>
             Initializer
@@ -18843,6 +18870,13 @@
             <summary>
             The value of the second component of this object.
             </summary>
+        </member>
+        <member name="M:OpenCvSharp.Vec2i.Deconstruct(System.Int32@,System.Int32@)">
+            <summary>
+            Deconstructing a Vector
+            </summary>
+            <param name="item0"></param>
+            <param name="item1"></param>
         </member>
         <member name="M:OpenCvSharp.Vec2i.#ctor(System.Int32,System.Int32)">
             <summary>
@@ -18912,6 +18946,13 @@
             The value of the second component of this object.
             </summary>
         </member>
+        <member name="M:OpenCvSharp.Vec2s.Deconstruct(System.Int16@,System.Int16@)">
+            <summary>
+            Deconstructing a Vector
+            </summary>
+            <param name="item0"></param>
+            <param name="item1"></param>
+        </member>
         <member name="M:OpenCvSharp.Vec2s.#ctor(System.Int16,System.Int16)">
             <summary>
             Initializer
@@ -18979,6 +19020,13 @@
             <summary>
             The value of the second component of this object.
             </summary>
+        </member>
+        <member name="M:OpenCvSharp.Vec2w.Deconstruct(System.UInt16@,System.UInt16@)">
+            <summary>
+            Deconstructing a Vector
+            </summary>
+            <param name="item0"></param>
+            <param name="item1"></param>
         </member>
         <member name="M:OpenCvSharp.Vec2w.#ctor(System.UInt16,System.UInt16)">
             <summary>
@@ -19052,6 +19100,14 @@
             <summary>
             The value of the third component of this object.
             </summary>
+        </member>
+        <member name="M:OpenCvSharp.Vec3b.Deconstruct(System.Byte@,System.Byte@,System.Byte@)">
+            <summary>
+            Deconstructing a Vector
+            </summary>
+            <param name="item0"></param>
+            <param name="item1"></param>
+            <param name="item2"></param>
         </member>
         <member name="M:OpenCvSharp.Vec3b.#ctor(System.Byte,System.Byte,System.Byte)">
             <summary>
@@ -19127,6 +19183,14 @@
             The value of the third component of this object.
             </summary>
         </member>
+        <member name="M:OpenCvSharp.Vec3d.Deconstruct(System.Double@,System.Double@,System.Double@)">
+            <summary>
+            Deconstructing a Vector
+            </summary>
+            <param name="item0"></param>
+            <param name="item1"></param>
+            <param name="item2"></param>
+        </member>
         <member name="M:OpenCvSharp.Vec3d.#ctor(System.Double,System.Double,System.Double)">
             <summary>
             Initializer
@@ -19200,6 +19264,14 @@
             <summary>
             The value of the third component of this object.
             </summary>
+        </member>
+        <member name="M:OpenCvSharp.Vec3f.Deconstruct(System.Single@,System.Single@,System.Single@)">
+            <summary>
+            Deconstructing a Vector
+            </summary>
+            <param name="item0"></param>
+            <param name="item1"></param>
+            <param name="item2"></param>
         </member>
         <member name="M:OpenCvSharp.Vec3f.#ctor(System.Single,System.Single,System.Single)">
             <summary>
@@ -19275,6 +19347,14 @@
             The value of the third component of this object.
             </summary>
         </member>
+        <member name="M:OpenCvSharp.Vec3i.Deconstruct(System.Int32@,System.Int32@,System.Int32@)">
+            <summary>
+            Deconstructing a Vector
+            </summary>
+            <param name="item0"></param>
+            <param name="item1"></param>
+            <param name="item2"></param>
+        </member>
         <member name="M:OpenCvSharp.Vec3i.#ctor(System.Int32,System.Int32,System.Int32)">
             <summary>
             Initializer
@@ -19349,6 +19429,14 @@
             The value of the third component of this object.
             </summary>
         </member>
+        <member name="M:OpenCvSharp.Vec3s.Deconstruct(System.Int16@,System.Int16@,System.Int16@)">
+            <summary>
+            Deconstructing a Vector
+            </summary>
+            <param name="item0"></param>
+            <param name="item1"></param>
+            <param name="item2"></param>
+        </member>
         <member name="M:OpenCvSharp.Vec3s.#ctor(System.Int16,System.Int16,System.Int16)">
             <summary>
             Initializer
@@ -19422,6 +19510,14 @@
             <summary>
             The value of the third component of this object.
             </summary>
+        </member>
+        <member name="M:OpenCvSharp.Vec3w.Deconstruct(System.UInt16@,System.UInt16@,System.UInt16@)">
+            <summary>
+            Deconstructing a Vector
+            </summary>
+            <param name="item0"></param>
+            <param name="item1"></param>
+            <param name="item2"></param>
         </member>
         <member name="M:OpenCvSharp.Vec3w.#ctor(System.UInt16,System.UInt16,System.UInt16)">
             <summary>
@@ -19501,6 +19597,15 @@
             <summary>
             The value of the fourth component of this object.
             </summary>
+        </member>
+        <member name="M:OpenCvSharp.Vec4b.Deconstruct(System.Byte@,System.Byte@,System.Byte@,System.Byte@)">
+            <summary>
+            Deconstructing a Vector
+            </summary>
+            <param name="item0"></param>
+            <param name="item1"></param>
+            <param name="item2"></param>
+            <param name="item3"></param>
         </member>
         <member name="M:OpenCvSharp.Vec4b.#ctor(System.Byte,System.Byte,System.Byte,System.Byte)">
             <summary>
@@ -19582,6 +19687,15 @@
             The value of the fourth component of this object.
             </summary>
         </member>
+        <member name="M:OpenCvSharp.Vec4d.Deconstruct(System.Double@,System.Double@,System.Double@,System.Double@)">
+            <summary>
+            Deconstructing a Vector
+            </summary>
+            <param name="item0"></param>
+            <param name="item1"></param>
+            <param name="item2"></param>
+            <param name="item3"></param>
+        </member>
         <member name="M:OpenCvSharp.Vec4d.#ctor(System.Double,System.Double,System.Double,System.Double)">
             <summary>
             Initializer
@@ -19662,6 +19776,15 @@
             The value of the fourth component of this object.
             </summary>
         </member>
+        <member name="M:OpenCvSharp.Vec4f.Deconstruct(System.Single@,System.Single@,System.Single@,System.Single@)">
+            <summary>
+            Deconstructing a Vector
+            </summary>
+            <param name="item0"></param>
+            <param name="item1"></param>
+            <param name="item2"></param>
+            <param name="item3"></param>
+        </member>
         <member name="M:OpenCvSharp.Vec4f.#ctor(System.Single,System.Single,System.Single,System.Single)">
             <summary>
             Initializer
@@ -19738,6 +19861,15 @@
             <summary>
             The value of the fourth component of this object.
             </summary>
+        </member>
+        <member name="M:OpenCvSharp.Vec4i.Deconstruct(System.Int32@,System.Int32@,System.Int32@,System.Int32@)">
+            <summary>
+            Deconstructing a Vector
+            </summary>
+            <param name="item0"></param>
+            <param name="item1"></param>
+            <param name="item2"></param>
+            <param name="item3"></param>
         </member>
         <member name="M:OpenCvSharp.Vec4i.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)">
             <summary>
@@ -19819,6 +19951,15 @@
             The value of the fourth component of this object.
             </summary>
         </member>
+        <member name="M:OpenCvSharp.Vec4s.Deconstruct(System.Int16@,System.Int16@,System.Int16@,System.Int16@)">
+            <summary>
+            Deconstructing a Vector
+            </summary>
+            <param name="item0"></param>
+            <param name="item1"></param>
+            <param name="item2"></param>
+            <param name="item3"></param>
+        </member>
         <member name="M:OpenCvSharp.Vec4s.#ctor(System.Int16,System.Int16,System.Int16,System.Int16)">
             <summary>
             Initializer
@@ -19895,6 +20036,15 @@
             <summary>
             The value of the fourth component of this object.
             </summary>
+        </member>
+        <member name="M:OpenCvSharp.Vec4w.Deconstruct(System.UInt16@,System.UInt16@,System.UInt16@,System.UInt16@)">
+            <summary>
+            Deconstructing a Vector
+            </summary>
+            <param name="item0"></param>
+            <param name="item1"></param>
+            <param name="item2"></param>
+            <param name="item3"></param>
         </member>
         <member name="M:OpenCvSharp.Vec4w.#ctor(System.UInt16,System.UInt16,System.UInt16,System.UInt16)">
             <summary>
@@ -19982,6 +20132,17 @@
             <summary>
             The value of the sizth component of this object.
             </summary>
+        </member>
+        <member name="M:OpenCvSharp.Vec6b.Deconstruct(System.Byte@,System.Byte@,System.Byte@,System.Byte@,System.Byte@,System.Byte@)">
+            <summary>
+            Deconstructing a Vector
+            </summary>
+            <param name="item0"></param>
+            <param name="item1"></param>
+            <param name="item2"></param>
+            <param name="item3"></param>
+            <param name="item4"></param>
+            <param name="item5"></param>
         </member>
         <member name="M:OpenCvSharp.Vec6b.#ctor(System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte)">
             <summary>
@@ -20071,6 +20232,17 @@
             <summary>
             The value of the sixth component of this object.
             </summary>
+        </member>
+        <member name="M:OpenCvSharp.Vec6d.Deconstruct(System.Double@,System.Double@,System.Double@,System.Double@,System.Double@,System.Double@)">
+            <summary>
+            Deconstructing a Vector
+            </summary>
+            <param name="item0"></param>
+            <param name="item1"></param>
+            <param name="item2"></param>
+            <param name="item3"></param>
+            <param name="item4"></param>
+            <param name="item5"></param>
         </member>
         <member name="M:OpenCvSharp.Vec6d.#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
             <summary>
@@ -20164,6 +20336,17 @@
             The value of the sixth component of this object.
             </summary>
         </member>
+        <member name="M:OpenCvSharp.Vec6f.Deconstruct(System.Single@,System.Single@,System.Single@,System.Single@,System.Single@,System.Single@)">
+            <summary>
+            Deconstructing a Vector
+            </summary>
+            <param name="item0"></param>
+            <param name="item1"></param>
+            <param name="item2"></param>
+            <param name="item3"></param>
+            <param name="item4"></param>
+            <param name="item5"></param>
+        </member>
         <member name="M:OpenCvSharp.Vec6f.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
             <summary>
             Initializer
@@ -20255,6 +20438,17 @@
             <summary>
             The value of the sixth component of this object.
             </summary>
+        </member>
+        <member name="M:OpenCvSharp.Vec6i.Deconstruct(System.Int32@,System.Int32@,System.Int32@,System.Int32@,System.Int32@,System.Int32@)">
+            <summary>
+            Deconstructing a Vector
+            </summary>
+            <param name="item0"></param>
+            <param name="item1"></param>
+            <param name="item2"></param>
+            <param name="item3"></param>
+            <param name="item4"></param>
+            <param name="item5"></param>
         </member>
         <member name="M:OpenCvSharp.Vec6i.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
             <summary>
@@ -20348,6 +20542,17 @@
             The value of the sixth component of this object.
             </summary>
         </member>
+        <member name="M:OpenCvSharp.Vec6s.Deconstruct(System.Int16@,System.Int16@,System.Int16@,System.Int16@,System.Int16@,System.Int16@)">
+            <summary>
+            Deconstructing a Vector
+            </summary>
+            <param name="item0"></param>
+            <param name="item1"></param>
+            <param name="item2"></param>
+            <param name="item3"></param>
+            <param name="item4"></param>
+            <param name="item5"></param>
+        </member>
         <member name="M:OpenCvSharp.Vec6s.#ctor(System.Int16,System.Int16,System.Int16,System.Int16,System.Int16,System.Int16)">
             <summary>
             Initializer
@@ -20439,6 +20644,17 @@
             <summary>
             The value of the sixth component of this object.
             </summary>
+        </member>
+        <member name="M:OpenCvSharp.Vec6w.Deconstruct(System.UInt16@,System.UInt16@,System.UInt16@,System.UInt16@,System.UInt16@,System.UInt16@)">
+            <summary>
+            Deconstructing a Vector
+            </summary>
+            <param name="item0"></param>
+            <param name="item1"></param>
+            <param name="item2"></param>
+            <param name="item3"></param>
+            <param name="item4"></param>
+            <param name="item5"></param>
         </member>
         <member name="M:OpenCvSharp.Vec6w.#ctor(System.UInt16,System.UInt16,System.UInt16,System.UInt16,System.UInt16,System.UInt16)">
             <summary>
@@ -34318,6 +34534,34 @@
             </summary>
             <param name="src">Input image</param>
             <param name="dst">White balancing result</param>
+        </member>
+        <member name="T:OpenCvSharp.ExceptionHandler">
+            <summary>
+            This static class defines one instance which than can be used by multiple threads to gather exception information from OpenCV
+            Implemented as a singleton
+            </summary>
+        </member>
+        <member name="F:OpenCvSharp.ExceptionHandler.ErrorHandlerCallback">
+            <summary>
+            Callback function invoked by OpenCV when exception occurs 
+            Stores the information locally for every thread
+            </summary>
+        </member>
+        <member name="M:OpenCvSharp.ExceptionHandler.RegisterExceptionCallback">
+            <summary>
+            Registers the callback function to OpenCV, so exception caught before the p/invoke boundary 
+            </summary>
+        </member>
+        <member name="M:OpenCvSharp.ExceptionHandler.ThrowPossibleException">
+            <summary>
+            Throws appropriate exception if one happened
+            </summary>
+        </member>
+        <member name="M:OpenCvSharp.ExceptionHandler.CheckForException">
+            <summary>
+            Returns a boolean which indicates if an exception occured for the current thread
+            Reading this value changes its state, so an exception is handled only once
+            </summary>
         </member>
         <member name="T:OpenCvSharp.ExceptionStatus">
             <summary>

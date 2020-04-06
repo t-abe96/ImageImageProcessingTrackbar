@@ -53,7 +53,8 @@
             this.ファイルToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(730, 28);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(671, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -65,51 +66,53 @@
             this.上書き保存ToolStripMenuItem,
             this.リセットToolStripMenuItem});
             this.ファイルToolStripMenuItem.Name = "ファイルToolStripMenuItem";
-            this.ファイルToolStripMenuItem.Size = new System.Drawing.Size(65, 24);
+            this.ファイルToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.ファイルToolStripMenuItem.Text = "ファイル";
             // 
             // 開くToolStripMenuItem
             // 
             this.開くToolStripMenuItem.Name = "開くToolStripMenuItem";
-            this.開くToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.開くToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.開くToolStripMenuItem.Text = "開く";
             this.開くToolStripMenuItem.Click += new System.EventHandler(this.開くToolStripMenuItem_Click);
             // 
             // 名前を付けて保存ToolStripMenuItem
             // 
             this.名前を付けて保存ToolStripMenuItem.Name = "名前を付けて保存ToolStripMenuItem";
-            this.名前を付けて保存ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.名前を付けて保存ToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.名前を付けて保存ToolStripMenuItem.Text = "名前を付けて保存";
             this.名前を付けて保存ToolStripMenuItem.Click += new System.EventHandler(this.名前を付けて保存ToolStripMenuItem_Click);
             // 
             // 上書き保存ToolStripMenuItem
             // 
             this.上書き保存ToolStripMenuItem.Name = "上書き保存ToolStripMenuItem";
-            this.上書き保存ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.上書き保存ToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.上書き保存ToolStripMenuItem.Text = "上書き保存";
             this.上書き保存ToolStripMenuItem.Click += new System.EventHandler(this.上書き保存ToolStripMenuItem_Click);
             // 
             // リセットToolStripMenuItem
             // 
             this.リセットToolStripMenuItem.Name = "リセットToolStripMenuItem";
-            this.リセットToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.リセットToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.リセットToolStripMenuItem.Text = "リセット";
             this.リセットToolStripMenuItem.Click += new System.EventHandler(this.リセットToolStripMenuItem_Click);
             // 
             // textselectfilename
             // 
             this.textselectfilename.Enabled = false;
-            this.textselectfilename.Location = new System.Drawing.Point(391, 31);
+            this.textselectfilename.Location = new System.Drawing.Point(366, 25);
+            this.textselectfilename.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textselectfilename.Name = "textselectfilename";
-            this.textselectfilename.Size = new System.Drawing.Size(323, 22);
+            this.textselectfilename.Size = new System.Drawing.Size(294, 19);
             this.textselectfilename.TabIndex = 1;
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.pictureBox1.Location = new System.Drawing.Point(14, 55);
+            this.pictureBox1.Location = new System.Drawing.Point(10, 47);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(700, 450);
+            this.pictureBox1.Size = new System.Drawing.Size(650, 330);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -117,14 +120,19 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(730, 676);
+            this.ClientSize = new System.Drawing.Size(671, 496);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textselectfilename);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "画像処理";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

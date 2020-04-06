@@ -53,7 +53,7 @@
             this.ファイルToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(982, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(730, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -99,17 +99,18 @@
             // textselectfilename
             // 
             this.textselectfilename.Enabled = false;
-            this.textselectfilename.Location = new System.Drawing.Point(522, 31);
+            this.textselectfilename.Location = new System.Drawing.Point(391, 31);
             this.textselectfilename.Name = "textselectfilename";
-            this.textselectfilename.Size = new System.Drawing.Size(460, 22);
+            this.textselectfilename.Size = new System.Drawing.Size(323, 22);
             this.textselectfilename.TabIndex = 1;
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 55);
+            this.pictureBox1.Location = new System.Drawing.Point(14, 55);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(982, 622);
+            this.pictureBox1.Size = new System.Drawing.Size(700, 450);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -118,7 +119,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(982, 953);
+            this.ClientSize = new System.Drawing.Size(730, 676);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textselectfilename);
             this.Controls.Add(this.menuStrip1);
